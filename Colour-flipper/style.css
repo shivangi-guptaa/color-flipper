@@ -1,0 +1,53 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+                 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Color Boxes */
+#green, #red, #blue {
+    height: 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 400px;
+    transition: transform 0.3s ease;
+}
+
+/* Individual Colors */
+#green { background-color: #28a745; }
+#red   { background-color: #dc3545; }
+#blue  { background-color: #007bff; }
+
+/* Hover Effect */
+#green:hover, #red:hover, #blue:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Buttons */
+button {
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 15px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover */
+button:hover {
+    background-color: #222;
+}
